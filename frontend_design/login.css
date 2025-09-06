@@ -1,0 +1,96 @@
+.login_page {
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 16px;
+        width: 350px;
+        padding: 30px;
+        background-color: #1a1817;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        margin: 40px 0;
+    }
+
+    .login_page h1 {
+        text-align: center;
+    }
+
+    .fields input {
+        width: 345px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: white;
+        background-color: #2c2b2a;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .fields input::placeholder {
+        color: #ccc;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('https://wallpaperset.com/w/full/2/8/0/521071.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fields button {
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 10px;
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .login_page a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .sign_up {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .sign_up a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .sign_up a:hover {
+        text-decoration: underline;
+    }
+
+    .fields button:hover {
+        background-color: lightgray;
+    }
+
+    .login_page input:hover {
+        background-color: #3c3b3a;
+    }
+
+    .fields a:hover{
+        text-decoration: underline;
+    }
+    

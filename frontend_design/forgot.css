@@ -1,0 +1,76 @@
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('https://wallpaperset.com/w/full/2/8/0/521071.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .back_button a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;   
+    }
+
+    .forgot_password {
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 16px;
+        width: 350px;
+        padding: 30px;
+        background-color: #1a1817;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        margin: 40px 0;
+    }
+
+    .forgot_password h1 {
+        text-align: center;
+    }
+
+    .fogot_box input::placeholder {
+        color: #ccc;
+    }
+
+    .forgot_box input {
+        width: 320px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: white;
+        background-color: #2c2b2a;
+        border: 1px solid #ccc;
+    }
+
+    .forgot_box button{
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 10px;
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .forgot_box button:hover {
+        background-color: lightgrey;
+    }
+
+    .forgot_box input:hover {
+        background-color: #3c3b3a;
+    }
+
+    .back_button a:hover {
+        text-decoration: underline;
+    }
