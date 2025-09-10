@@ -1,0 +1,36 @@
+ body {
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     background-image: url('https://i.pinimg.com/originals/d7/2b/56/d72b567349c0b0e0b8b37e14ec5e60c7.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
+
+ .about_content {
+     background-color: rgba(15, 15, 15, 0.9);
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     padding: 30px;
+     box-sizing: border-box;
+     margin: 100px 20px 20px 20px;
+ }
+
+ .about_content h1 {
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ .about_content h2 {
+     font-weight: bold;
+     margin-top: 40px;
+     margin-bottom: 10px;
+ }
+
+ .about_content p {
+     margin-bottom: 15px;
+     text-align: justify;
+ }

@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.pinimg.com/originals/d7/2b/56/d72b567349c0b0e0b8b37e14ec5e60c7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_content {
+    background-color: rgba(15, 15, 15, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 100px 20px 20px 20px;
+}
+
+.content_container {
+    display: flex;
+    gap: 30px;
+}
+
+.description {
+    flex: 2;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.description p {
+    text-indent: 30px;
+    margin-bottom: 15px;
+}
+
+.images {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.images p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #ddd;
+    word-wrap: break-word;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sources {
+    background-color: rgba(15, 15, 15, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 20px;
+}
+
+.sources h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sources p {
+    margin-bottom: 10px;
+}
+
+.sources a {
+    color: white;
+    text-decoration: none;
+}
+
+.sources a:hover {
+    text-decoration: underline;
+}
+
+.login_area {
+    background-color: rgba(15, 15, 15, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+}
+
+.login_area h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login_area button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login_area button:hover {
+    background-color: lightgray;
+}
+
+.login_area a {
+    color: black;
+    text-decoration: none;
+}
+
+.quote a {
+    color: white;
+    text-decoration: none;
+}
+
+.quote a:hover {
+    text-decoration: underline;
+}

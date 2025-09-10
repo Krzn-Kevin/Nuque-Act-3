@@ -1,104 +1,93 @@
  body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        background-image: url('https://wallpaperset.com/w/full/2/8/0/521071.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     background-image: url('https://i.pinimg.com/originals/d7/2b/56/d72b567349c0b0e0b8b37e14ec5e60c7.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+ }
 
-    .create_page {
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        font-size: 16px;
-        width: 750px;
-        padding: 30px;
-        background-color: #1a1817;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        margin: 40px 0;
-    }
+ .create_page {
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 16px;
+     width: 750px;
+     padding: 30px;
+     background-color: rgba(15, 15, 15, 0.9);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     top: 45%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     margin: 40px 0;
+ }
 
-    .create_page h1 {
-        text-align: center;
-    }
+ .create_page h1 {
+     text-align: center;
+     font-size: 25px;
+     margin-bottom: 20px;
+     font-weight: bold;
+ }
 
-    .form_sections {
-        display: flex;
-        gap: 40px;
-        flex-wrap: wrap;
-    }
+ .form_sections {
+     display: flex;
+     gap: 40px;
+     flex-wrap: wrap;
+ }
 
-    .credentials,
-    .personal_information {
-        flex: 1;
-        min-width: 300px;
-    }
+ .form_sections h2 {
+     font-size: 20px;
+     margin-bottom: 20px;
+     font-weight: bold;
+ }
 
-    .fields input {
-        width: 100%;
-        padding: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: white;
-        background-color: #2c2b2a;
-        border: 1px solid #ccc;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-    }
+ .credentials,
+ .personal_information {
+     flex: 1;
+     min-width: 300px;
+ }
 
-    .fields input::placeholder {
-        color: #ccc;
-    }
+ .fields input {
+     width: 100%;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     color: white;
+     background-color: #1C1C1C;
+     border: 1px solid #ccc;
+     margin-bottom: 10px;
+     box-sizing: border-box;
+ }
 
-    .fields button {
-        background-color: white;
-        color: black;
-        font-size: 16px;
-        padding: 10px;
-        width: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
+ .fields input::placeholder {
+     color: #ccc;
+ }
 
-    .fields select {
-        background-color: white;
-        color: black;
-        margin-bottom: 20px;
-        font-size: 16px;
-        padding: 10px;
-        width: 110px;
-        font-family: Arial, Helvetica, sans-serif;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
+ .fields button {
+     background-color: white;
+     color: black;
+     font-size: 16px;
+     padding: 10px;
+     width: 100px;
+     font-family: Arial, Helvetica, sans-serif;
+     border: none;
+     outline: none;
+     cursor: pointer;
+ }
 
-    .fields a {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin-left: 10px;
-        color: white;
-        text-decoration: none;
-    }
+ .credentials button:hover,
+ .credentials select:hover {
+     background-color: lightgray;
+ }
 
-    .credentials button:hover , .credentials select:hover{
-        background-color: lightgray;
-    }
+ .credentials input:hover,
+ .personal_information input:hover {
+     background-color: #3c3b3a;
+ }
 
-    .credentials input:hover, .personal_information input:hover {
-        background-color: #3c3b3a;
-    }
-
-    .credentials a:hover{
-        text-decoration: underline;
-    }
-
-    
+ .credentials a:hover {
+     text-decoration: underline;
+ }

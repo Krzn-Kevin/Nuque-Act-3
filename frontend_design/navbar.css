@@ -1,0 +1,75 @@
+
+.navbar{
+    background-color: #0F0F0F !important;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+ }
+
+
+ .navbar-toggler {
+     background-color: none;
+     font-size: 1.25rem;
+     border: none;
+ }
+
+ .navbar-toggler:focus,
+ btn-close:focus {
+     box-shadow: none;
+     outline: none;
+ }
+
+ .nav-link {
+     color: #666777;
+     font-weight: 500;
+     position: relative;
+ }
+
+ .nav-link:hover,
+ .nav-link.active {
+     color: lightgray;
+     font-weight: bold;
+ }
+
+ @media (min-width: 991px) {
+     .nav-link::before {
+         content: "";
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         width: 0;
+         height: 2px;
+         background-color: lightgray;
+         visibility: hidden;
+         transition: width 0.3s ease, visibility 0.3s ease;
+     }
+
+     .nav-link:hover::before,
+     .nav-link.active::before {
+         width: 100%;
+         visibility: visible;
+     }
+ }
+
+ .offcanvas-body, .offcanvas-header {
+     justify-content: center;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #0F0F0F;
+ }
+
+ .offcanvas-header h5{
+    color: white;
+ }
+
+ .btn-close{
+     filter: invert(1);
+ }
+
+ .navbar-nav .nav-item {
+    color: white;
+ }

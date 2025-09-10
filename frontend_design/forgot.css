@@ -1,76 +1,89 @@
-    body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        background-image: url('https://wallpaperset.com/w/full/2/8/0/521071.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* centers vertically */
+    background-image: url('https://i.pinimg.com/originals/d7/2b/56/d72b567349c0b0e0b8b37e14ec5e60c7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding-top: 70px; /* prevent overlap with fixed navbar */
+}
 
-    .back_button a {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        text-decoration: none;
-        color: white;   
-    }
+.back_button a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;   
+}
 
-    .forgot_password {
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        font-size: 16px;
-        width: 350px;
-        padding: 30px;
-        background-color: #1a1817;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        margin: 40px 0;
-    }
+.forgot_password {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    width: 350px;
+    padding: 30px;
+    background-color: rgba(15, 15, 15, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 
-    .forgot_password h1 {
-        text-align: center;
-    }
+.forgot_password h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 
-    .fogot_box input::placeholder {
-        color: #ccc;
-    }
+.forgot_box input::placeholder {
+    color: #ccc;
+}
 
-    .forgot_box input {
-        width: 320px;
-        padding: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: white;
-        background-color: #2c2b2a;
-        border: 1px solid #ccc;
-    }
+.forgot_box input {
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: #1C1C1C;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
 
-    .forgot_box button{
-        background-color: white;
-        color: black;
-        margin-bottom: 20px;
-        margin-top: 10px;
-        font-size: 16px;
-        padding: 10px;
-        width: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
+.forgot_box button {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
-    .forgot_box button:hover {
-        background-color: lightgrey;
-    }
+.forgot_box a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
 
-    .forgot_box input:hover {
-        background-color: #3c3b3a;
-    }
+.forgot_box button:hover {
+    background-color: lightgrey;
+}
 
-    .back_button a:hover {
-        text-decoration: underline;
-    }
+.forgot_box input:hover {
+    background-color: #3c3b3a;
+}
+
+.forgot_box a:hover {
+    text-decoration: underline;
+}
